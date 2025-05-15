@@ -15,6 +15,8 @@ import java.time.LocalDateTime;
 import java.util.Map;
 import java.util.Optional;
 
+// JDBC 이용해서 사용자 정보를 users 테이블에 저장, 조회, 수정 기능 담당
+
 /**
  * 사용자 리포지토리 구현 클래스
  * - JdbcTemplate을 사용하여 데이터베이스 작업을 수행합니다.

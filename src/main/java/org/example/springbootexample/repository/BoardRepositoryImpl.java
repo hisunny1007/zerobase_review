@@ -16,6 +16,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+// JDBC 이용해서 게시판 정보를 boards 테이블에 저장, 조회, 수정 기능 담당
+
 /**
  * 게시판 리포지토리 구현 클래스 (H2 DB 대응 리팩토링 완료)
  */

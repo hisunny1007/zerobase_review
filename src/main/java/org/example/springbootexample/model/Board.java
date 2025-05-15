@@ -12,15 +12,17 @@ public class Board {
     private String content;
     private Long userId;
     private String username; // 작성자 이름 (조회 시 JOIN으로 가져옴)
-    private int viewCount;
+    private int viewCount; // 조회수
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
     // 기본 생성자
+    // @NoArgsConstructor로 대체 가능
     public Board() {
     }
 
     // 모든 필드를 포함한 생성자
+    // @AllArgsConstructor로 대체 가능
     public Board(Long id, String title, String content, Long userId, String username,
                  int viewCount, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.id = id;

@@ -9,6 +9,8 @@ import jakarta.validation.constraints.Size;
  * - 클라이언트와 서버 간의 데이터 전송에 사용됩니다.
  * - 입력 유효성 검사를 위한 어노테이션이 포함되어 있습니다.
  */
+
+// UserDto는 따로 안 나눠도 되는지? -> Signup, Login 따로 구분해도 좋을 듯
 public class UserDto {
 
     // 회원가입 요청 DTO
